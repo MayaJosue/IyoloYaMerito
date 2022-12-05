@@ -41,7 +41,7 @@
 
 
         <div class="container espacio1">
-             <hr>
+       
             <div class="row align-items-start">
                 <div class="col-sm-4 ">
                     <h1>Nosotros</h1>
@@ -64,39 +64,77 @@
 
 
 
-        <div class="container espacio2">
-            <div class="row">
-                
-                <div class="card col-4">
-                    <img src="img/7.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
+       <section id="gallery">
+            <div class="container">
+                 <div class="row">
+                    
+                        <h2>Noticias</h2>
+                          <div class="col-lg-4 mb-4">
+                              <div class="card">
+                                  <img src="img/inicio/noticia1.jpg"  class="card-img-bottom" alt="">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Reinauguración</h5>
+                                    <p class="card-text">Reinauguración del Centro Comunitario Iyolosiwa León A.C, en Los Herrera #201, col. Nuevo león, en el mes de febrero.</p>
+                                   <a href="" class="btn btn-warning btn-sm">Leer mas</a>
+                                  </div>
+                                  </div>
+                            </div>
+
+                             <div class="col-lg-4 mb-4">
+                              <div class="card">
+                                  <img src="img/inicio/pt3.jpg" alt="" class="card-img-top">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Consultorio medico interdisciplinario </h5>
+                                    <p class="card-text">Proyecto interdisciplinario de salud, en donde doctores, nutriólogos, psicólogos y fisioterapeutas trabajaran para mejorar la salud de familias de la colonia Nuevo León.  Inicio en febrero. </p>
+                                   <a href="" class="btn btn-warning btn-sm">Leer mas</a>
+                                  </div>
+                                  </div>
+                            </div>
+
+                             <div class="col-lg-4 mb-4">
+                              <div class="card">
+                                  <img src="img/inicio/noticias3.jpg" alt="" class="card-img-top">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Nueva sala de computación</h5>
+                                    <p class="card-text">Construcción de la sala de computación Iyolosiwa para implementar cursos de herramientas básicas digitales para el año 2023.</p>
+                                   <a href="" class="btn btn-warning btn-sm">Leer mas</a>
+                                  </div>
+                                  </div>
+                            </div>
+                    
+
+                        <h2>Eventos</h2>
+                             <div class="col-lg-4 mb-4">
+                              <div class="card">
+                                  <img src="img/inicio/e1.jpg"  class="card-img-bottom" alt="">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Pastorela 2022</h5>
+                                    <p class="card-text">Pastorela de los niños el día 9 de Diciembre a las 6:00 pm.</p>
+                                   <a href="" class="btn btn-warning btn-sm">Leer mas</a>
+                                  </div>
+                                  </div>
+                            </div>
+
+                             <div class="col-lg-4 mb-4">
+                              <div class="card">
+                                  <img src="img/inicio/e2.jpg" alt="" class="card-img-top">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Rosca de reyes 2023</h5>
+                                    <p class="card-text">Partida de rosca de reyes, 6 de enero de 2023.</p>
+                                   <a href="" class="btn btn-warning btn-sm">Leer mas</a>
+                                    
+                                  </div>
+                                  </div>
+                            </div>
+
+                             <div class="col-lg-4 mb-4">
+                              
+                            </div>
+        
+        
                 </div>
-
-                <div class="card col-4">
-                    <img src="img/7.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-
-                <div class="card col-4">
-                    <img src="img/7.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-
-
-           </div>
-        </div>
+            </div>
+        </section>
 
       
 
@@ -105,11 +143,11 @@
      
           
              
-<div class="container espacio2">
+<div class="container espacio1">
 <div class="row align-items-start">
 
     <div class="col-sm-4 ">
-                    <h1>Nuestro trabajo</h1>
+                    <h2>Nuestro trabajo</h2>
                     <br>
                   <p>El trabajo realizado dentro de la institución consiste en acompañamiento psicológico individual y familiar, regularizaciones en actividades escolares, talleres disciplinarios y psicoeducativos, juegos cooperativos y el espacio de ludoteca que ayuda en la motricidad y desarrollo cognitivo de los niños y niñas. </p>
 
@@ -126,10 +164,10 @@
                         <img src="{{ asset('img/inicio/i4.jpg') }}" class="galeria_in">
                     </figure>
                     <figure class="galeria_inicio galeria_inicio--g3">
-                        <img src="{{ asset('img/inicio/i1.jpg') }}" class="galeria_in">
+                        <img src="{{ asset('img/inicio/2.jpg') }}" class="galeria_in">
                     </figure>
                     <figure class="galeria_inicio galeria_inicio--g4">
-                        <img src="{{ asset('img/inicio/i3.jpg') }}" class="galeria_in">
+                        <img src="{{ asset('img/inicio/pd5.jpg') }}" class="galeria_in">
                 </section>
             </main>
        
@@ -145,16 +183,16 @@
   <div
     class=" text-center bg-image"
     style="
-      background-image: url('img/inicio/5.jpg');
-      height: 500px;
+      background-image: url('img/wola4.jpg');
+    
 
     "
   >
     <div class="mask col-sm-6" >
       <div class="  ">
         <div class=" text-white">
-          <h1 class="mb-6">"Tus acciones hoy, mueven a un millón"</h1>
-          <a class="btn btn-outline-light btn-lg"  href="{{ route('Donaciones') }}" role="button"
+          <h2 class="mb-6">"Tus acciones hoy, mueven a un millón"</h2>
+          <a class="btn btn-warning btn-lg"  href="{{ route('Donaciones') }}" role="button"
           >Donar</a
           >
         </div>
@@ -168,3 +206,4 @@
 @section('contentFooter')
     @include('utilities.footer')
 @endsection
+

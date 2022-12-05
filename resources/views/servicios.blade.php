@@ -43,10 +43,23 @@
 
 
 
-<div class="container espacio3 col-lg-12">
+<div class="container espacio1 col-lg-12">
+
+
+	<div class="container espacio2">
+            <div class="row align-items-start">
+                <div class="col-sm-4 ">
+                    <h1>Servicios</h1>
+
+                </div>
+                <div class="col-sm-8 ">
+                    <p>En Iyolosiwa León ofrecemos una amplia variedad de servicios, cuyos objetivos se centran en fortalecer el tejido social ayudando a niños, jóvenes, mujeres y familias a mejorar sus condiciones de vida.</p>
+                     
+                </div>
+            </div>
+    </div>
 
 	<!-- Galeria -->
-	<h1>Talleres</h1>
 	  <a class="test" href="#horario"></a>
 		<main class="main">	
 			<section class="salto1  galeria2">
@@ -57,7 +70,7 @@
 					<img src="{{ asset('img/servicios/s2.jpg') }}" class="galeria_img">
 				</figure>
 				<figure class="galeria_servicios3 galeria_servicios--g3">
-					<img src="{{ asset('img/servicios/s3.jpg') }}" class="galeria_img">
+					<img src="{{ asset('img/servicios/12.jpg') }}" class="galeria_img">
 				</figure>
 				<figure class="galeria_servicios4 galeria_servicios--g4">
 					<img src="{{ asset('img/servicios/s4.jpg') }}" class="galeria_img">
@@ -99,9 +112,10 @@
 			</section>
 		</main>
 	<!-- Galeria -->
-</div>
 
-<div class="container espacio2 col-lg-12" id="horario">
+
+<div class="container  col-lg-12" id="horario">
+	<h2>Horarios</h2>
 	<table class="table table-sm table-hover table-borderless">
 	<thead>
 		<tr>
@@ -220,15 +234,69 @@
 		</tbody>
 	</table>
 </div>
+</div>
 
 
+ <!-- Background image -->
+  <div
+    class=" text-center bg-image"
+    style="
+      background-image: url('img/wola4.jpg');
+   
 
-<!-- Columna Gris -->
-		<section class="gris col-12 center">
-		 
-		</section>
+    "
+  >
+    <div class="mask col-sm-6" >
 
 
+     
+    	<form action="{{ ('resources/views/enviar.blade.php') }}" method="post">
+        <div class="form-control">
+
+
+        <div class="mb-6">
+        	<label class="form-label text-md-end tituloDD">Agendar cita psicoterapéutica </label>
+        </div>
+
+	    <div class="form-floating mb-3">
+ 			<input type="naime" name="nombre" class="form-control" id="floatingInput" placeholder="Nombre completo">
+  			<label for="floatingInput">Nombre completo</label>
+	    </div>
+
+		<div class="form-floating mb-3">
+		  <input type="email" name="correo" class="form-control" id="floatingPassword" placeholder="Correo">
+		  <label for="floatingPassword">Correo</label>
+		</div>
+
+		<div class="form-floating mb-3">
+		  <input type="phone" name="telefono" class="form-control" id="floatingPassword" placeholder="Teléfono">
+		  <label for="floatingPassword">Teléfono</label>
+		</div>
+
+
+	    <div class="form-floating mb-3">
+ 			<input type="date" name="fecha" class="form-control" id="floatingInput" placeholder="Fecha">
+  			<label for="floatingInput">Fecha</label>
+	    </div>
+
+		<select class="form-select mb-3" name="hora" aria-label="Selecciona un hora">
+		  <option selected>Selecciona un hora</option>
+		  <option value="9:00 a.m.">9:00 a.m.</option>
+		  <option value="10:00 a.m.">10:00 a.m.</option>
+		  <option value="11:00 a.m.">11:00 a.m.</option>
+		  <option value="12:00 p.m.">12:00 p.m.</option>
+		</select>
+
+		
+		<button style="text-align: center;" type="button" class="btn btn-warning container-fluid mb-3">Enviar</button>
+		</form>
+
+		</div>
+
+
+    </div>
+  </div>
+  <!-- Background image -->
 
 @endsection
 

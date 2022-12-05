@@ -22,7 +22,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-2" href="{{ route('Nosotros') }}">
+                    <a class="nav-link mx-2 " href="{{ route('Nosotros') }}">
                         <h5 class="bn">
                             NOSOTROS
                         </h5>

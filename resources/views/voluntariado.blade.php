@@ -30,7 +30,7 @@
           <div class="disenoBtn">
             <button onclick="cerrarvideo1();"><img src="img/cancelar.png"></button>
         </div>
-           <iframe width="100%" height="500" src="https://www.youtube.com/embed/45BD4u-6TkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <iframe width="100%" height="500" src="https://www.youtube.com/embed/TK6coWj_oIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
 </section>
@@ -40,7 +40,7 @@
           <div class="disenoBtn">
             <button onclick="cerrarvideo2();"><img src="img/cancelar.png"></button>
         </div>
-           <iframe width="100%" height="500" src="https://www.youtube.com/embed/oRR9gMFl99c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <iframe width="100%" height="500" src="https://www.youtube.com/embed/ypGhjVI4vYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
         </div>
         
@@ -51,7 +51,7 @@
           <div class="disenoBtn">
             <button onclick="cerrarvideo3();"><img src="img/cancelar.png"></button>
         </div>
-           <iframe width="100%" height="500" src="https://www.youtube.com/embed/OQIrKh5NjBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <iframe width="100%" height="500" src="https://www.youtube.com/embed/HkLoqDCX3Zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
         </div>
         
@@ -62,7 +62,7 @@
           <div class="disenoBtn">
             <button onclick="cerrarvideo4();"><img src="img/cancelar.png"></button>
         </div>
-           <iframe width="100%" height="500"src="https://www.youtube.com/embed/NB4QlDosCjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <iframe width="100%" height="500"src="https://www.youtube.com/embed/DJ8vCUm1NSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
 </section>
@@ -72,7 +72,7 @@
           <div class="disenoBtn">
             <button onclick="cerrarvideo5();"><img src="img/cancelar.png"></button>
         </div>
-           <iframe width="100%" height="500" src="https://www.youtube.com/embed/BPD3XjejN3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <iframe width="100%" height="500" src="https://www.youtube.com/embed/DyxFoBCRWJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
         </div>
         
@@ -83,7 +83,7 @@
           <div class="disenoBtn">
             <button onclick="cerrarvideo6();"><img src="img/cancelar.png"></button>
         </div>
-           <iframe width="100%" height="500" src="https://www.youtube.com/embed/68OSy6qSnmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <iframe width="100%" height="500" src="https://www.youtube.com/embed/6vmxVOpS2rE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
         </div>
         
@@ -128,73 +128,122 @@
 </div>
 
 
-<div class="container-fluid pt-5">
+<div class="container espacio2 ">
+        <div class="row align-items-start">
+
+<div class="container  col-sm-5">
+    <h2>Voluntariado</h2>
+    <p>En Iyolosiwa, A.C. creemos y queremos que la juventud tenga cauces y construya experiencias concretas de servicio para vivir su compromiso en la transformación de la realidad de los menos favorecidos.
+    </p>
+
+    <p>
+        En Educación Popular Iyolosiwa A.C. las y los voluntarios, se comprometen a colaborar en reciprocidad y corresponsabilidad en los programas educativos de la organización aportando sus conocimientos y especialidades al equipo y a la gente del lugar.
+    </p>
+
+    <p>Esta oportunidad les posibilita fortalecer, encauzar y promover el compromiso solidario con las personas menos favoricidas para colaborar con ellos en la construcción de alternativas de vida digna y fraterna. La experiencia de voluntariado puede ser de un año, 6 meses o un mes durante el verano.</p>
+</div>
+
+
+                      <div class="col-sm-7 ">
+                            <main class="main">
+                                <section class="galeriav">
+                                    <figure class="galeria_v galeria_v--g1">
+                                    <img src="{{ asset('img/testimonios/v1.jpg') }}" class="galeria_voluntariado">
+                                </section>
+                             </main>            
+                     </div>
+
+  </div>
+    </div>
+
+<div class="container-fluid pt-5  espacio2" >
   <section class="section" id="feature">
-        <div class="container">
-            <div class="row justy-content-center">
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="bi bi-hand-thumbs-up"></i>
-                        </div>
-                        <h4 class="mb-2">The right advice</h4>
-                        <p>Our team are experts in matching you with the right provider.</p>
-                    </div>
-                </div>
+        <div class="container  ">
+             <h1 style="text-align: center;">Requisitos para ser voluntario</h1>
+                <br>
+                    <div class="row justy-content-center">
 
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="bi bi-trophy"></i>
+                        <div class="col-lg-3 col-sm-6 col-md-6">
+                            <div class=" text-center feature-block">
+                                <div class="block mb-4">
+                                    <h1 style="color: #FF8B12">1.</h1>
+                                </div>
+                                <p style="text-align: center;">Contar con mayoría de edad o tener carta de autorización de padre o tutor.</p>
+                            </div>
                         </div>
-                        <h4 class="mb-2">Recognised for excellence</h4>
-                        <p>We've been awarded for our high rate of customer satisfaction.</p>
-                    </div>
-                </div>
 
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="bi bi-person-heart"></i>
+                        <div class="col-lg-3 col-sm-6 col-md-6">
+                            <div class="text-center feature-block">
+                                <div class="block mb-4">
+                                    <h1 style="color: #FF8B12;">2.</h1>
+                                </div>
+                                <p style="text-align: center;">Entregar a la coordinación del voluntariado la ficha de solicitud con foto y carta de motivaciones y expectativas de la experiencia voluntariado.</p>
+                            </div>
                         </div>
-                        <h4 class="mb-2">Compare the best</h4>
-                        <p>We only compare market leaders with a reputation for service quality.</p>
-                    </div>
-                </div>
 
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="text-center feature-block">
-                        <div class="img-icon-block mb-4">
-                            <i class="bi bi-award"></i>
+
+                           <div class="col-lg-3 col-sm-6 col-md-6">
+                            <div class="text-center feature-block">
+                                <div class="block mb-4">
+                                    <h1 style="color: #FF8B12">3.</h1>
+                                </div>
+                                <p style="text-align: center;">Contar con al menos dos cartas de recomendación.</p>
+                            </div>
                         </div>
-                        <h4 class="mb-2">Premium Services</h4>
-                        <p>We only compare market leaders with a reputation for service quality.</p>
+
+
+                         <div class="col-lg-3 col-sm-6 col-md-6">
+                            <div class="text-center feature-block">
+                                <div class="block mb-4">
+                                    <h1 style="color: #FF8B12">4.</h1>
+                                </div>
+                                <p style="text-align: center;">Presentar certificado médico.</p>
+                            </div>
+                        </div>
+
                     </div>
-                </div>
-            </div>
         </div> <!-- / .container -->
     </section>  
 </div>
 
             <!-- Background image -->
-  <div
-    class=" text-center bg-image"
-    style="
-      background-image: url('img/servicios/82.jpg');
-      height: 500px;
-
-    "
-  >
+  <div class=" text-center bg-image" style="background-image:  url('img/servicios/82.jpg');  height: 720px;">
     <div class="mask2 col-sm-6" >
-      <div class="  ">
-        <div class=" text-white">
-          <h1 class="mb-6">Has tu voluntariado con nosotros</h1>
-          <a class="btn btn-outline-light btn-lg"  href="{{ route('Donaciones') }}" role="button"
-          >Donar</a
-          >
+
+        <div class="form-control">
+
+
+        <div class="mb-6">
+            <label class="form-label text-md-end tituloDD">Se voluntario</label>
         </div>
-      </div>
-    </div>
+
+        <div class="form-floating mb-3">
+            <input type="naime" class="form-control" id="floatingInput" placeholder="Nombre completo">
+            <label for="floatingInput">Nombre completo</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingPassword" placeholder="Correo">
+          <label for="floatingPassword">Correo</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="phone" class="form-control" id="floatingPassword" placeholder="Teléfono">
+          <label for="floatingPassword">Teléfono</label>
+        </div>
+
+
+        <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Comentario</label>
+        </div>
+
+        
+        <button style="text-align: center;" type="button" class="btn btn-warning container-fluid mb-3">Enviar</button>
+        
+
+        </div>
+
   </div>
   <!-- Background image -->
 
